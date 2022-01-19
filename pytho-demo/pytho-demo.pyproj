@@ -27,7 +27,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="convert.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exporter.py" />
+    <Compile Include="first_last.py" />
+    <Compile Include="fixed_length.py" />
     <Compile Include="main.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
